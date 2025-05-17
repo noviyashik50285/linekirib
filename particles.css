@@ -1,0 +1,36 @@
+#particles-js{ height: 100vh;
+background-color: rgb(138, 169, 146);
+position: absolute; z-index: -1;
+}
+body{ min-height: 100vh;	
+	  font-family: 'Roboto', sans-serif;
+	  overflow-x: hidden;
+}
+.accordion-item{background-color: rgb(155, 202, 202);}
+.popup-with-zoom-anim{cursor: pointer;}
+.poyaisch{margin-top: .7rem;}
+.doppanel{margin-top: 1rem;}
+.doppanel2{display: none; margin-top: .6rem;}
+
+.container-fluid{ position: absolute; }
+
+.ischez{opacity: 1;}
+.ischez{
+animation: bounce 5s infinite ease-in-out;
+}
+@keyframes bounce {
+from { opacity: 0.3; }
+to { opacity: 1; }
+}
+
+.btn{ color: #000; background-color: rgb(205, 243, 173); }
+.btn:hover{color:  rgb(56, 105, 13);}
+
+.opistext
+{ display: block;
+font-size: 1.2rem;
+align-items: center;
+border: 3px dashed rgb(188, 243, 71);
+border-radius: 1rem;
+margin-right: .1rem;
+}

@@ -1,0 +1,71 @@
+*{margin: 0; padding: 0;}
+.opisanie0{ margin: .2rem 2rem 1rem 1rem;
+font-size: 1.7rem;
+text-indent: 20px;
+}
+.opisanie1{
+margin: 2rem 4rem 2rem 2rem;
+font-size: 1.4rem;
+text-indent: 20px;
+}
+.pokaz0{display: flex;
+justify-content: center;
+padding-top: .4rem; margin-bottom: .4rem;
+}
+.btn{margin-right: 20px;}
+.pokaz2, .pokaz3, .pokaz4{
+display: none;
+}
+.opispic1{ opacity: 0;
+animation: 10s in-out infinite;
+}
+@keyframes in-out {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.opispic2{ opacity: 0;
+animation: 15s in-out infinite;
+}
+@keyframes in-out {
+  0% { opacity: 1; }
+  10% { opacity: 0.9; }
+  20% { opacity: 0.8; }
+  30% { opacity: 0.6; }
+  40% { opacity: 0.4; }
+  50% { opacity: 0; }
+  60% { opacity: 0.4; }
+  70% { opacity: 0.6; }
+  80% { opacity: 0.8; }
+  90% { opacity: 0.9; }
+  100% { opacity: 1; }
+}
+.opispic3{ opacity: 0;
+  animation: 20s in-out infinite;
+  }
+@keyframes in-out {
+  0% { opacity: 1; }
+  10% { opacity: 0.9; }
+  20% { opacity: 0.7; }
+  30% { opacity: 0.5; }
+  40% { opacity: 0.3; }
+  50% { opacity: 0; }
+  60% { opacity: 0.3; }
+  70% { opacity: 0.5; }
+  80% { opacity: 0.7; }
+  90% { opacity: 0.9; }
+  100% { opacity: 1; }
+}
+h2{
+margin-top: .3rem;
+margin-left: 8rem;
+color: #e21f1f;
+}
+
+*{
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
