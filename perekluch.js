@@ -15,6 +15,7 @@ $(document).ready(function(){
         $(".pokaz1").hide();
         $(".pokaz2").hide();
         $(".pokaz3").show();
+        $("body").css('background-color', 'rgb(138, 169, 146)');        
         $(".pokaz4").hide();
     });
     $(".poyaischkn4").click(function(){
